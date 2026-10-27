@@ -1,0 +1,26 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+wp-config.php
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime, logs and backups
+*.log
+error_log
+*.sql
+*.sqlite
+*.bak
+*.backup
+*.zip
+.DS_Store
+Thumbs.db
+
+# Tooling
+node_modules/
+vendor/
+.idea/
+.vscode/
